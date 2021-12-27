@@ -73,6 +73,14 @@ h5 {
   line-height: 30px;
 }
 
+.projectDescription h2 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+}
+
 @media (max-width: 960px) {
   .projectDescription {
     padding: 0;

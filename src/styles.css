@@ -1,0 +1,50 @@
+:root {
+  --primnary-color: hsl(243, 100%, 69%);
+  --secondary-color: #f9f7fe;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+.HomePageHero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+  font-weight: normal;
+}
+.HomePageHero h2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 54px;
+  color: #272142;
+}
+
+.HomePageHero h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 128px;
+  color: #000000;
+}
+.HomePageHero h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.btn-branding {
+  background: var(--primnary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+  padding: 18px 30px;
+
+  border-radius: 4px;
+}
